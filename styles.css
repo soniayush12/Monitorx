@@ -1,0 +1,169 @@
+/* Global Styles */
+html, body, .cover {
+  height: 100%;
+}
+
+.cover {
+  background: url('img/coverbg.jpg') top left no-repeat;
+  background-size: cover;
+  display: table;
+  width: 100%;
+  padding: 0 20%;
+  box-shadow: inset 0 0 100px #100;
+}
+
+.cover-text {
+  text-align: center;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cover-text h1 {
+  font-size: 60px;
+  color: burlywood;
+  margin: 0;
+  letter-spacing: -4px;
+}
+
+.nav navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+.testimonial {
+  background: #100000;
+}
+
+blockquote {
+  border: none;
+  font-family: Georgia, Times, monospace;
+  font-style: italic;
+  font-size: 32px;
+  color: aliceblue;
+}
+
+blockquote cite {
+  display: block;
+  font-family: Helvetica, sans-serif, Arial;
+  font-style: normal;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: right;
+  color: antiquewhite;
+}
+
+section {
+  padding: 100px;
+}
+
+#team {
+  background: url('img/fan.jpg') top left no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: beige;
+  text-align: center;
+  padding: 20px;
+  font-family: Times, sans-serif, serif;
+}
+
+footer a {
+  color: red;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 568px) {
+  .cover h1 {
+    font-size: 40px;
+  }
+  section {
+    padding: 20px;
+  }
+}
+
+/* Team Member Styling */
+.team-member {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-member img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.team-member h4 {
+  font-size: 24px;
+}
+
+.team-member p {
+  font-size: 18px;
+}
+
+
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons-container img {
+  width: 30px; /* Adjust the size as needed */
+  height: 30px;
+  margin: 0 10px; /* Adjust the spacing between icons */
+  border-radius: 0%;
+}
+
+
+
+#why-us {
+  background-color: gray; /* Change the background color as desired */
+  padding-top: 80px; /* Adjust the top padding as needed */
+  padding-bottom: 80px; /* Adjust the bottom padding as needed */
+  position: relative; /* Add position relative */
+  background-size: cover; /* Adjust the background size as needed */
+  background-position: center; /* Center the background image */
+}
+
+.watermark_logo {
+  position: absolute; /* Position the watermark */
+  top: 0; /* Adjust top position as needed */
+  left: 0; /* Adjust left position as needed */
+  width: 100%; /* Make the watermark cover the entire section */
+  height: 100%; /* Make the watermark cover the entire section */
+  background-image: url('img/logo_rmv_bg.png'); /* Replace 'your-watermark-image.png' with the path to your watermark image */
+  background-repeat: no-repeat; /* Prevent the watermark from repeating */
+  background-size: contain; /* Adjust the size of the watermark */
+  opacity: 0.4; /* Adjust the opacity of the watermark */
+  z-index: 0; /* Set the z-index to send it behind other content */
+  background-position: center;
+}
+
+#why-us h1 {
+  color: #000; /* Change the text color as desired */
+}
+
+#why-us p {
+  font-size: 18px; /* Adjust the font size as needed */
+  color: #000; /* Change the text color as desired */
+}
+
+#why-us .feature-list {
+  list-style-type: square; /* Remove bullet points */
+  padding-left: 0; /* Remove left padding */
+  color: #000;
+}
+
+#why-us .feature-item {
+  margin-bottom: 10px; /* Adjust the bottom margin between feature items */
+  color: #000;
+}
+
